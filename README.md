@@ -6,3 +6,5 @@
 ### Linux查看perf查看硬件事件工具<br />
     perf stat -e [cache-misses] [application]
     
+### Linux进程绑定cpu物理核心运行
+    taskset -c [cpuid] [application]
